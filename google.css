@@ -1,0 +1,162 @@
+
+
+
+
+
+.textedroite{
+    
+    vertical-align:middle; 
+    position:fixed;
+    top:8px;
+    right:0;
+    color: gray;
+}
+
+.textedroite > a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #000;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.points{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.compte{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.box{
+    border: 0.1px solid #000;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    height: 30px;
+    width: 500px ;
+    box-shadow:  5px #888;
+    border-radius: 40px;
+}
+
+.input-box{
+    margin-left:15px ;
+    width: 420px; ;
+    height: 25px; ;
+    outline:none ;
+    background: transparent;
+    border:none ;
+    font-size: 15px;
+}
+
+.loupe{
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.voix{
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logogoogle{
+    padding-bottom: 250px;
+
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    box-shadow: none;
+    width: 18%;
+    display:flex;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 8px 15px;
+    border: none;
+    color: #6e6e6e;
+    border-radius: 5px;  
+}
+    
+.margin{
+    margin-left: 10px;
+}
+
+.btn:hover{
+    border: 1px solid #a4a4a4;
+    border-radius: 8px;
+}
+
+.footer{
+  
+     background-color: #F4F7F5;
+     position:absolute;
+     bottom:0;
+     width:98%;
+}
+
+.pays{
+    color: #70757a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carb{
+    border-top : 1px solid #70757a;
+    margin-bottom: 30px;
+    }
+
+.carbContainer{
+    width:15%;
+    margin:0 auto;
+    display: block;
+}
+
+.lien{
+    display: flex;
+}
+
+.carbContainer > a {
+    text-decoration: none;
+    color: #70757a;
+
+}
+
+.liencontainer > a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #70757a;
+}
+
+.lienfooter{
+    margin-left: 22%;
+    width:40%;
+}
+.lienfooter > a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #70757a;
+}
